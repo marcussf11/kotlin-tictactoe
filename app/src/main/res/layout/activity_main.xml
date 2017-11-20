@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.tictactoe.MainActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_1"
+            style="@android:style/Widget.Button"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt" />
+
+        <Button
+            android:id="@+id/bt_2"
+            style="@android:style/Widget.Button"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt" />
+
+        <Button
+            android:id="@+id/bt_3"
+            style="@android:style/Widget.Button"
+            android:layout_width="40pt"
+            android:layout_height="40pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_4"
+            style="@android:style/Widget.Button"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt" />
+
+        <Button
+            android:id="@+id/bt_5"
+            style="@android:style/Widget.Button"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt" />
+
+        <Button
+            android:id="@+id/bt_6"
+            style="@android:style/Widget.Button"
+            android:layout_width="40pt"
+            android:layout_height="40pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_7"
+            style="@android:style/Widget.Button"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt" />
+
+        <Button
+            android:id="@+id/bt_8"
+            style="@android:style/Widget.Button"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt" />
+
+        <Button
+            android:id="@+id/bt_9"
+            style="@android:style/Widget.Button"
+            android:layout_width="40pt"
+            android:layout_height="40pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Space
+            android:layout_marginRight="3pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt" />
+
+        <Button
+            android:id="@+id/bt_restart"
+            style="@android:style/Widget.Button"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:text="@string/restart" />
+
+        <Space
+            android:layout_width="40pt"
+            android:layout_height="40pt" />
+    </TableRow>
+</TableLayout>
